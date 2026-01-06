@@ -1,7 +1,7 @@
 ZOHO.embeddedApp.on("PageLoad", function () {
     console.log("Widget Loaded");
 
-    // submit event ABHI bind hoga (safe)
+
     document.getElementById("contactForm").addEventListener("submit", function (e) {
         e.preventDefault();
 
@@ -37,4 +37,5 @@ ZOHO.embeddedApp.on("PageLoad", function () {
 
 
 ZOHO.embeddedApp.init();
+
 
