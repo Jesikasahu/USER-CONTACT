@@ -35,5 +35,6 @@ ZOHO.embeddedApp.on("PageLoad", function () {
     });
 });
 
-// init LAST me
+
 ZOHO.embeddedApp.init();
+
